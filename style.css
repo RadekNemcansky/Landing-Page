@@ -22,6 +22,9 @@ body {
     text-transform: uppercase;
     font-size: larger;
     font-family: 'Unbounded', sans-serif;
+    text-decoration: none;
+    color: #fff;
+
 }
 
 .links {
@@ -36,6 +39,11 @@ body {
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.links a:hover {
+    color: #3882f6;
 }
 
 /* HERO section  */
@@ -60,22 +68,36 @@ padding: 80px
 
 }
 .hero-left h1 {
-font-size: 40px;
-margin-bottom: 0;
-}
-.hero-left p {
-
-}
-.hero-left button {
-
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
-.hero-right{
-
+.button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #3882f6;
+    border:2px solid #fff;
+    font-weight: 400;
+    font-size: larger;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: #1f2937;
+    border: 2px solid #fff;
+    cursor: pointer;
 }
 
 .hero-right img {
     max-width: 600px;
     height: auto;
-    padding-top:60px ;
+    padding-top:60px;
+    text-decoration: none;
+    
+
+
 }
