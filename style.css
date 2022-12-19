@@ -1,5 +1,17 @@
 html {
     margin: 0;
     padding: 0;
-    font-style: roboto, sanf-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center;
+    border: 1px solid black;
+    
+    
+
+}
+
