@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,16 +12,27 @@ body {
     align-items: center;
     border: 1px solid black;
     padding: 0 52px;
+    background-color: #1f2937;
+    color: #fff;
 }
 
 .links {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-width: 400px;
 } 
 
 .links a {
     text-decoration: none;
-    color: 666;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* HERO section  */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    border: 1;
 }
