@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     height: 72px;
     align-items: center;
-    border: 1px solid black;
+/*  border: 1px solid black;*/ 
     padding: 0 52px;
     background-color: #1f2937;
     color: #fff;
@@ -32,7 +32,42 @@ body {
 
 /* HERO section  */
 .hero-section {
-    height: 100vh;
+    height: 75vh;
     display: flex;
     border: 1;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.hero-left{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+max-width: 600px;
+color: #fff;
+flex-wrap: wrap;
+padding-top: 100px;
+
+
+}
+.hero-left h1 {
+font-size: 48px;
+margin-bottom: 0;
+}
+.hero-left p {
+
+}
+.hero-left button {
+
+}
+
+.hero-right{
+
+}
+
+.hero-right img {
+    width: 400px;
+    height: auto;
 }
