@@ -101,3 +101,71 @@ padding: 80px
 
 
 }
+
+/* CARDS SECTION */
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-heading {
+    align-self: center;
+    padding-top: 32px;
+}
+
+.cards-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    /* border: 2px solid #3882f6; */
+    border-radius: 10px;
+    padding: 16px;
+    margin:32px;
+    max-width: 200px;
+}
+.card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.card-text {
+    flex-wrap: wrap;
+
+}
+
+.card-text a {
+    color: #1f2937;
+}
+
+/* QUOTE section */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 48px;
+}
+.quote-author {
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 800px;
+    font-size: 16px;
+}
